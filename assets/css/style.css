@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body {
+      margin: auto;
+  }
+
+ h1 {
+     color: white;
+     background: #4aaaa5;
+     padding: 10px;
+     width: 50%;
+     float: right;
+     margin: auto;
+ }
+
+ .main-header {
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    float: left;
+    width: 100%;
+ }
+
+ .name-header {
+     float: left;
+     width: 35%;
+ }
+
+
+ nav {
+     width: 35%;
+     float: right;
+     height: 57px;
+ }
+
+a {
+    color: #777777;
+}
+ .about {
+     float: left;
+     margin: 10px;
+     padding-right: 10px;
+     border-right: solid 1px #cccccc;
+ }
+
+ .portfolio {
+    float: left;
+    margin: 10px;
+    padding-left: 1px;
+    padding-right: 10px;
+    border-right: solid 1px #cccccc;
+ }
+
+ .contact {
+     float: left;
+     margin: 10px;
+
+ }
+
+ .container {
+     float: left;
+     background:gray;
+ }
+
+ .container-content {
+     float: left;
+     margin-top: 45px;
+     margin-bottom: 92px;
+     margin-right: 198px;
+     margin-left: 196px;
+    background:#ffffff;
+ }
+
+ .about-me-container {
+     float: left;
+     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .about-me-block {
+     width:100%;
+     float: left;
+     border-bottom: solid 1px #777777;
+ }
+
+ h2 {
+     float: left;
+ }
+
+ .img-paragraph {
+     float: left;
+     padding-top: 20px;
+ }
