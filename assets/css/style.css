@@ -5,15 +5,17 @@
 
   body {
       margin: auto;
+      background:#eaeaed;
   }
 
  h1 {
-     color: white;
+     color: #ffffff;
      background: #4aaaa5;
-     padding: 10px;
+     padding: 15px;
      width: 50%;
      float: right;
      margin: auto;
+     font-family: Georgia, Times, Times New Roman, serif;
  }
 
  .main-header {
@@ -35,16 +37,25 @@
      width: 35%;
      float: right;
      height: 57px;
+     padding-top: 10px;
  }
 
 a {
     color: #777777;
+    text-decoration: none;
 }
  .about {
      float: left;
      margin: 10px;
      padding-right: 10px;
-     border-right: solid 1px #cccccc;
+     border-right: solid 1px #777777;
+     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+ h2 {
+    color: #4aaaa5;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
  }
 
  .portfolio {
@@ -52,27 +63,35 @@ a {
     margin: 10px;
     padding-left: 1px;
     padding-right: 10px;
-    border-right: solid 1px #cccccc;
+    border-right: solid 1px #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
  }
 
  .contact {
      float: left;
      margin: 10px;
+     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
  }
 
  .container {
      float: left;
-     background:gray;
+     height: 850px;
+     width:100%;
+     position: relative;
  }
 
  .container-content {
-     float: left;
-     margin-top: 45px;
-     margin-bottom: 92px;
-     margin-right: 198px;
-     margin-left: 196px;
+    float: left;
     background:#ffffff;
+    width: 800px;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    margin: auto;
+    border: solid 1px #666666;
+
+
  }
 
  .about-me-container {
@@ -85,14 +104,44 @@ a {
  .about-me-block {
      width:100%;
      float: left;
-     border-bottom: solid 1px #777777;
- }
-
- h2 {
-     float: left;
+     border-bottom: solid 1px #666666;
  }
 
  .img-paragraph {
      float: left;
      padding-top: 20px;
+     height: 355px;
+
  }
+
+ img {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 32px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 100%;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+footer {
+    float: left;
+    width: 100%;
+    height: 45px;
+    border-top: solid 4px #4aaaa5;
+    background: #666666;
+}
+
+.copyright {
+    color: #cccccc;
+    margin-top: 22.5px;
+    font family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
